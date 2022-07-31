@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pigeon Messenger | Chats</title>
+</head>
+
+<body class="bg-dark p-4">
+    <div class="chat-container bg-primary rounded">
+        <header class="chat-header px-4">
+            <h1 class="fw-bold"><i class="fa-solid fa-dove"></i> PIGEON</h1>
+            <a href="index.html" class="btn btn-light col-md-3">Leave Room</a>
+        </header>
+        <main class="chat-main">
+            <div class="chat-sidebar">
+                <h3 class="fw-bold"><i class="fa-solid fa-comments"></i> &nbsp;Room:</h3>
+                <h2 id="room-name">JavaScript</h2>
+                <h3 class="fw-bold"><i class="fa-solid fa-users"></i> &nbsp;Users</h3>
+                <ul id="users">
+                    <li>Brad</li>
+                    <li>John</li>
+                    <li>Mary</li>
+                    <li>Paul</li>
+                    <li>Mike</li>
+                </ul>
+            </div>
+            <div class="chat-messages bg-light">
+                <div class="message">
+                    <p class="meta">Brad <span>9:12pm</span></p>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                        repudiandae.
+                    </p>
+                </div>
+                <div class="message">
+                    <p class="meta">Mary <span>9:15pm</span></p>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                        repudiandae.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <div class="chat-form-container">
+            <form id="chat-form" class="row">
+                <div class="col-md-10">
+                    <textarea class="form-control" id="msg" type="text" rows="1" placeholder="Enter Message..." required
+                        autocomplete="off"></textarea>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-dark col-md-12">Send&nbsp;&nbsp;<i
+                            class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
