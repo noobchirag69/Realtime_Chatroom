@@ -1,0 +1,27 @@
+{
+  "name": "realtime_chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noobchirag69/Realtime_Chatroom.git"
+  },
+  "author": "Chirag Chakraborty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noobchirag69/Realtime_Chatroom/issues"
+  },
+  "homepage": "https://github.com/noobchirag69/Realtime_Chatroom#readme",
+  "dependencies": {
+    "expess": "0.0.1-security",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
