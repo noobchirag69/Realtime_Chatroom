@@ -17,7 +17,6 @@ a {
 }
 
 /* Chat Page */
-
 .chat-container {
     max-width: 1000px;
     background: #fff;
@@ -111,25 +110,29 @@ a {
 
 .join-header a {
     color: #000;
-    font-weight: bold;
 }
 
-.join-main p {
+.join-header p {
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .join-main .form-control {
     margin-bottom: 20px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
 }
 
 .join-main label {
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .join-main .btn {
     margin-top: 20px;
     width: 100%;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+    font-weight: bold;
 }
 
 @media (max-width: 767px) {
