@@ -1,16 +1,15 @@
-const path = require('path');
 const http = require('http');
 const express = require('express');
 const socketio = require('socket.io');
 const formatMessage = require('./utils/messages');
-const { userJoin, getCurrentUser, userLeave, getRoomUsers } = require('./utils/users')
+const { userJoin, getCurrentUser, userLeave, getRoomUsers } = require('./utils/users');
 
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
 // Set static folder
-app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static('views'));
 
 // Bot Name
 const botName = 'PIGEON BOT';
