@@ -50,7 +50,7 @@ function outputMessage(message) {
     const p = document.createElement('p');
     p.classList.add('meta');
     p.innerText = message.username;
-    p.innerHTML += `&nbsp;&nbsp;<span>${message.time}</span>`;
+    p.innerHTML += `&nbsp;&nbsp;<span>${message.time}&nbsp;(IST)</span>`;
     div.appendChild(p);
     const para = document.createElement('p');
     para.classList.add('text');
